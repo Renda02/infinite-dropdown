@@ -1,3 +1,12 @@
+## Dropdown
+
+-A dropdown that is managed using React. To pass data I used props which pass data between component.
+-On intial state the first value is open is a boolen vale that tells me whether or not the dropdown is open. And second value is a function that I used to change the dropdown.
+-I added second second state which is the first value is select which is use to slect items on and the dropdown and a function that allow the user to select items or remove and filter selection.
+-I also add a onClick event which all the the logic of drop menu is done 
+-I also added onclickoutside webpack that which helps to fix how to capture click with React hook.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

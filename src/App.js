@@ -13,6 +13,7 @@ const items = [
 function App() {
   return (
     <div className="wrapper">
+      <Dropdown title="Select color" items={items} />
    <Dropdown title="Select color" items={items} multiSelect/>
     </div>
   );
