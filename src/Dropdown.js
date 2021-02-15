@@ -34,7 +34,7 @@ function Dropdown({ title, items = [], multiSelect = false }) {
 
   return (
     <div className="dropdown-wrapper">
-        <h2>Dropdown</h2>
+     
       <div
         tabIndex={0}
         className="dropdown-header"
