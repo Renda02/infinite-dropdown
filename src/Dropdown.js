@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import onClickOutside from 'react-onclickoutside'
+import { FiPlus, FiMinus } from 'react-icons/fi';
 
 
 function Dropdown({ title, items = [], multiSelect = false }) {
@@ -46,8 +47,10 @@ function Dropdown({ title, items = [], multiSelect = false }) {
           <p className="dropdown-text">{title}</p>
         </div>
         <div className="dropdown-header__action">
-          <p className="dropdown-text">{open ? "Close" : "Open"}</p>
+          <p className="dropdown-text">{open ? <FiMinus /> : <FiPlus />}</p>
         </div>
+        
+
       </div>
       {open && (
         <ul className="dropdown-list">
